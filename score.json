@@ -1,5 +1,12 @@
 [
     {
+        "id": 16,
+        "vards": "Marita",
+        "klikski": 20,
+        "laiks": 11,
+        "datums": "2026-03-20"
+    },
+    {
         "id": 14,
         "vards": "iiii",
         "klikski": 20,
@@ -25,13 +32,6 @@
         "vards": "gg1212",
         "klikski": 32,
         "laiks": 26,
-        "datums": "2026-02-20"
-    },
-    {
-        "id": 12,
-        "vards": "joske",
-        "klikski": 34,
-        "laiks": 30,
         "datums": "2026-02-20"
     }
 ]
