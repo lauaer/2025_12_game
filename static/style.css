@@ -1,14 +1,22 @@
 .ietvars {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 620px;
+    margin: 40px auto;
+    padding: 15px;
     background: rgb(232, 232, 233);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px 
+rgba(70, 40, 140, 0.2);
+
 }
 
 h1 {
     text-align: center;
-    background: rgb(152, 198, 241);
-    color: rgb(184, 235, 66);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg,#7d5cff, #a474ff);
+    color: white;
+    letter-spacing: 2px;
 }
 
 ul {
@@ -18,59 +26,85 @@ ul {
 
 li {
     display: inline-block;
-}
-
-.speles_lauk {
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 485px;
-    background: black;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-
-}
-
-.bloks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(235, 113, 113);
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    font-size: 45px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.bloks:hover {
-    background:  #ff4747;
-    cursor: pointer;
+    margin: 6px;
 }
 
 a {
     text-decoration: none;
-    display: inline-block;
     padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 12px;
     font-weight: bold;
-    text-align: center;
-    transition: background-color 0.3s, transform 0.2s;
-    background-color: #007BFF;
     color: white;
-    border: 2px solid #0056b3;
+    background: linear-gradient(145deg, #a474ff, #7d5cff);
+    transition: all .2s;
 }
 
 a:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+    transform: scale(1.07);
+    background: linear-gradient(145deg, #7d5cff, #5a3eff);
 }
 
-a:active {
-    background-color: #007BFF;
-    color: rgb(178, 236, 130);
-    transform: scale(1.05);
+
+.speles_lauk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 480px;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #a474ff, #7d5cff);
+
+}
+
+.bloks {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #c9aaff, #9b7dff);
+    box-shadow: 0 8px 15px rgba(0, 0, 0 , 0.2);
+    transition: all .2s;
+}
+
+.bloks:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+    background: linear-gradient(145deg, #9b7dff, #6c4eff);
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid #8c6cff;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background: #8c6cff;
+    color: white;
+}
+
+tr :nth-child(even) {
+    background: #eee6ff;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 12px;
+    background: linear-gradient(90deg, #7d5cff, #a474ff);
+    color: white;
+    border-radius: 12px;
 }
